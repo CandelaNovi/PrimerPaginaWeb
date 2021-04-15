@@ -1,0 +1,49 @@
+@charset "utf-0";
+#navegador {
+    background-color: black;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    width: 40%;
+    float: right;
+    margin-top: -20%;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    margin: 15px;
+}
+
+#principal {
+    background-image: url(imagenes/camion1.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100%;
+    background-position: center;
+    margin-top: 20%;
+}
+
+#imagenes {
+    float: right;
+    display: inline;
+    position: absolute;
+    margin-top: 10%;
+}
+
+figure {
+    background-color: white;
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+figure img:hover {
+    transform: scale(1.8);
+}
+
+#footer {
+    background-color: grey;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}

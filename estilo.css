@@ -1,0 +1,147 @@
+.divbody {
+    font-size: 1em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.divbody_navegador {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    width: 35%;
+    height: 5%;
+    margin-right: 0;
+    float: right;
+    position: absolute;
+    top: 4em;
+    right: 0;
+    z-index: 10;
+}
+
+.divbody_navegador-li {
+    float: right;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    font-size: 1em;
+}
+
+
+/* .divbody_navegador-li-redes {
+    position: relative;
+    top: -25px;
+} */
+
+#hero {
+    position: relative;
+    z-index: 2;
+    top: 1em;
+    width: 100%;
+}
+
+.divbody_footer {
+    background-color: grey;
+    bottom: o;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.divbody_form {
+    position: relative;
+    z-index: 8;
+    background-color: ghostwhite;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    top: -100px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+/* .divbody_imagenes {
+    background-color: azure;
+    position: relative;
+    margin: auto;
+    z-index: 5;
+    font-size: 0.5em;
+} */
+
+.divbody_imagenes {
+    background-color: grey;
+    position: relative;
+    /* margin: auto; */
+    z-index: 5;
+    font-size: 0.5em;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.divbody_imagenes-article {
+    background-color: white;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    display: inline-block;
+    margin-top: -1%;
+    padding: 2%;
+}
+
+.divbody_imagenes-article img:hover {
+    transform: scale(1.8);
+}
+
+
+/* .divbody_imagenes-article {
+    background-color: azure;
+    position: relative;
+} */
+
+.nav {
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    right: 0;
+    width: 50%;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.lista {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.item {
+    list-style: none;
+    margin: 5px;
+}
+
+.item a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.item img {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
